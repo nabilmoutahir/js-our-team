@@ -30,3 +30,15 @@ const team = [
     image: 'barbara-ramos-graphic-designer.jpg',
   },
 ];
+
+// recupero elementi
+const containerEl = document.getElementById('container')
+
+
+//  ciclo for of per stampare membri
+for (let teamMember of team) {
+  // stampo nella console i membri
+  console.log(teamMember)
+
+}
+
