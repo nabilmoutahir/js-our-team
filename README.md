@@ -23,3 +23,9 @@ Prima la logica in italiano e poi traduciamo in codice.
 console.log() è nostro amico.
 
 ## SVOLGIMENTO
+
+- faccio un ciclo for of per stampare gli object in console 
+
+- aggiungo all' interno del ciclo una elemento che contiene cosa voglio stampare nel DOM
+
+- stampo l'elemento nel DOM
