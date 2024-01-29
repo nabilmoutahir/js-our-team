@@ -32,13 +32,23 @@ const team = [
 ];
 
 // recupero elementi
-const containerEl = document.getElementById('container')
+const containerEl = document.getElementById('container');
 
 
 //  ciclo for of per stampare membri
 for (let teamMember of team) {
   // stampo nella console i membri
-  console.log(teamMember)
+  console.log(teamMember);
 
+  let memberHtml = ` 
+  <div> 
+    ${teamMember.name} <br> 
+    ${teamMember.role} <br> 
+    ${teamMember.image} <br> 
+  </div> `;
+
+  console.log(memberHtml);
+
+  containerEl.innerHTML += memberHtml
 }
 
